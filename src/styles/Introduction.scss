@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.introduction {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+  background-image: url(../assets/background.png);
+  background-size: cover;
+  padding: 4rem 0;
+}
+
+aside{
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  width: 53rem;
+  justify-content: center;
+}
+
+.main-text {
+  font-size: 5.6rem;
+  font-family: "Exo 2", sans-serif;
+  color: #080063;
+
+  .colored-text {
+    color: #8f36ff;
+  }
+}
+
+.secondary-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 3.2rem;
+  color: #080063;
+}
+
+button {
+  border: none;
+  padding: 2.5rem 8rem;
+  border-radius: 2rem;
+  background: #1086ab;
+  cursor: pointer;
+
+  font-size: 2rem;
+  font-weight: Bold;
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+}
+button:hover {
+  background: #0e7594;
+}
