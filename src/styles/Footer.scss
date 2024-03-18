@@ -1,0 +1,50 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    font-size: 62.5%;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Exo 2", sans-serif;
+    gap: 8rem;
+
+    img#logo{
+        width: 25rem;
+    }
+
+    h2{
+        color: #1086AB;
+        font-size: 3rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #info-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        h1{
+            color: #080063;
+            font-size: 2.6rem
+        }
+
+        p{
+            color: #080063;
+            font-size: 2.2rem
+        }
+
+        h2{
+            color: #080063;
+            font-size: 1.6rem
+        }
+    }
+  }
