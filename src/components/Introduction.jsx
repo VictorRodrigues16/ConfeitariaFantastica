@@ -7,13 +7,13 @@ export default function Introduction() {
     <>
       <section className="introduction">
         <aside>
-          <div className="main-text">
+          <h2 className="main-text">
             CONHEÇA AGORA OS <span className="colored-text">MELHORES DOCES</span> DA SUA <span className="colored-text">VIDA</span>
-          </div>
+          </h2>
 
-          <div className="secondary-text">
+          <h2 className="secondary-text">
             Doces mágicos e sabores fantásticos
-          </div>
+          </h2>
 
           <button>PEÇA AGORA</button>
         </aside>

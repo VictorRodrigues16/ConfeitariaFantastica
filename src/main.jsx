@@ -6,6 +6,7 @@ import OurHistory from './components/OurHistory.jsx'
 import Footer from './components/Footer.jsx'
 import Candys from './components/Candys.jsx'
 import Values from './components/Values.jsx'
+import Forms from './components/Forms'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <OurHistory/>
     <Candys/>
     <Values/>
+    <Forms/>
     <Footer/>
   </React.StrictMode>,
 )
