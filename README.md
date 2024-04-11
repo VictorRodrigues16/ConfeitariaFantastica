@@ -24,7 +24,7 @@ npm run dev
 ou
 <br>
 
-<a href="">
+<a href="https://victorrodrigues16.github.io/ConfeitariaFantastica/">
   Acesse o Site
 </a>
 
